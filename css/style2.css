@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: pink;
+    background-image: url(/angry.png);
+    
+}
+
+.centered {
+    margin-top: 20px; /* Khoảng cách giữa tiêu đề và hình ảnh */
+}
+
+.button-container {
+    margin-top: 20px; /* Khoảng cách giữa hình ảnh và nút */
+}
+
+/* Kiểu button */
+.button-container {
+    margin-top: 20px;
+    text-align: center; /* Canh giữa theo chiều ngang */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    margin: 5px; /* Để tạo khoảng cách giữa các nút */
+    display: inline-block; /* Chuyển nút button thành inline-block để chúng nằm cạnh nhau */
+}
+
+h1{
+    text-align: center;
+}
+pre{
+    font-size:30px;
+    text-align: center;
+}
